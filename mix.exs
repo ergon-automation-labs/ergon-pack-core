@@ -24,6 +24,7 @@ defmodule ErgonCorePack.MixProject do
             bot_army_dispatcher: :permanent,
             bot_army_skills: :permanent,
             bot_army_job_scheduler: :permanent,
+            bot_army_graphify_cache: :permanent,
             ergon_core_pack: :permanent
           ]
         ]
@@ -50,7 +51,8 @@ defmodule ErgonCorePack.MixProject do
       {:bot_army_synapse, path: "../bot_army_synapse"},
       {:bot_army_dispatcher, path: "../bot_army_dispatcher"},
       {:bot_army_skills, path: "../bot_army_skills"},
-      {:bot_army_job_scheduler, path: "../bot_army_job_scheduler"}
+      {:bot_army_job_scheduler, path: "../bot_army_job_scheduler"},
+      {:bot_army_graphify_cache, path: "../bot_army_graphify_cache"}
     ]
   end
 end
